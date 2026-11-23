@@ -1,0 +1,35 @@
+[
+  {
+    "dataset": "douban-book",
+    "hashes_verified": true,
+    "disjoint": true,
+    "heldout_train_supported": true,
+    "users": 10424,
+    "items": 20056,
+    "train": 417543,
+    "validation": 55336,
+    "test": 113142
+  },
+  {
+    "dataset": "yelp2018",
+    "hashes_verified": true,
+    "disjoint": true,
+    "heldout_train_supported": true,
+    "users": 31668,
+    "items": 38048,
+    "train": 1117356,
+    "validation": 143637,
+    "test": 300413
+  },
+  {
+    "dataset": "amazon-book",
+    "hashes_verified": true,
+    "disjoint": true,
+    "heldout_train_supported": true,
+    "users": 52643,
+    "items": 91599,
+    "train": 2129799,
+    "validation": 277332,
+    "test": 576977
+  }
+]

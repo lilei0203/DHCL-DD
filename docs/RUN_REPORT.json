@@ -1,0 +1,85 @@
+{
+  "experiment_status": "Completed short full-data reconstruction experiment; not a reproduction of the manuscript performance table",
+  "datasets": {
+    "douban-book": {
+      "users": 10424,
+      "items": 20056,
+      "interactions": 586056,
+      "train": 417543,
+      "validation": 55336,
+      "test": 113142,
+      "matches_paper_statistics": false
+    },
+    "yelp2018": {
+      "users": 31668,
+      "items": 38048,
+      "interactions": 1561406,
+      "train": 1117356,
+      "validation": 143637,
+      "test": 300413,
+      "matches_paper_statistics": true
+    },
+    "amazon-book": {
+      "users": 52643,
+      "items": 91599,
+      "interactions": 2984108,
+      "train": 2129799,
+      "validation": 277332,
+      "test": 576977,
+      "matches_paper_statistics": false
+    }
+  },
+  "trained_dataset": "douban-book",
+  "config": {
+    "d": 64,
+    "layers": 2,
+    "gamma": 0.8,
+    "k_min": 2,
+    "q": 16,
+    "warmup": 10,
+    "tau": 0.2,
+    "lambda_cl": 0.01,
+    "lambda_reg": 1e-05,
+    "lr": 0.001,
+    "batch_size": 8192,
+    "epochs": 12,
+    "eval_every": 5,
+    "patience": 20,
+    "seed": 2026,
+    "eval_batch_size": 128,
+    "contrastive_chunk": 256,
+    "checkpoint_layers": true,
+    "cpu_threads": 4,
+    "run_scope": "Full Douban-Book processed dataset, short 12-epoch local run: 10 warm-up + 2 joint; batch size 8192 instead of paper 1024. Not a convergence or paper-performance replication.",
+    "dataset": "douban-book",
+    "device": "cuda",
+    "config": "configs/local_run.json"
+  },
+  "measured_test_results": {
+    "Recall@10": 0.04068946696238013,
+    "NDCG@10": 0.04541245745749855,
+    "Recall@20": 0.0641296966005523,
+    "NDCG@20": 0.05044041878687214,
+    "evaluated_users": 10424,
+    "excluded_users": 0,
+    "split": "test",
+    "best_epoch": 10,
+    "best_validation_ndcg20": 0.03827875947093103,
+    "completed_epochs": 12,
+    "elapsed_seconds": 752.3653422999996,
+    "train_interactions": 417543,
+    "run_scope": "Full Douban-Book processed dataset, short 12-epoch local run: 10 warm-up + 2 joint; batch size 8192 instead of paper 1024. Not a convergence or paper-performance replication.",
+    "paper_results_reproduced": false,
+    "note": "Measured on a newly constructed split; compare only with baselines rerun on this identical split."
+  },
+  "full_training_set_traversed_each_epoch": true,
+  "joint_training_epochs": [
+    11,
+    12
+  ],
+  "selected_checkpoint_phase": "warmup",
+  "original_experiment_code_available": false,
+  "original_data_split_available": false,
+  "public_repository_created": false,
+  "doi_minted": false
+}

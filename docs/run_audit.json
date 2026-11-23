@@ -1,0 +1,13 @@
+{
+  "code_hashes_match_executed_version": true,
+  "all_weights_and_losses_finite": true,
+  "every_epoch_covered_full_training_set": true,
+  "checkpoint_selected_by_validation_only": true,
+  "per_user_test_means_match_summary": true,
+  "completed_epochs": 12,
+  "last_filtered_epoch": 12,
+  "filtered_edges_subset_of_training": true,
+  "filtered_training_user_and_item_coverage_preserved": true,
+  "joint_epochs": 2,
+  "test_users": 10424
+}

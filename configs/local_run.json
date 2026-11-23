@@ -1,0 +1,8 @@
+{
+  "d": 64, "layers": 2, "gamma": 0.8, "k_min": 2, "q": 16,
+  "warmup": 10, "tau": 0.2, "lambda_cl": 0.01, "lambda_reg": 0.00001,
+  "lr": 0.001, "batch_size": 8192, "epochs": 12, "eval_every": 5,
+  "patience": 20, "seed": 2026, "eval_batch_size": 128,
+  "contrastive_chunk": 256, "checkpoint_layers": true, "cpu_threads": 4,
+  "run_scope": "Full Douban-Book processed dataset, short 12-epoch local run: 10 warm-up + 2 joint; batch size 8192 instead of paper 1024. Not a convergence or paper-performance replication."
+}

@@ -1,0 +1,17 @@
+{
+  "Recall@10": 0.04068946696238013,
+  "NDCG@10": 0.04541245745749855,
+  "Recall@20": 0.0641296966005523,
+  "NDCG@20": 0.05044041878687214,
+  "evaluated_users": 10424,
+  "excluded_users": 0,
+  "split": "test",
+  "best_epoch": 10,
+  "best_validation_ndcg20": 0.03827875947093103,
+  "completed_epochs": 12,
+  "elapsed_seconds": 752.3653422999996,
+  "train_interactions": 417543,
+  "run_scope": "Full Douban-Book processed dataset, short 12-epoch local run: 10 warm-up + 2 joint; batch size 8192 instead of paper 1024. Not a convergence or paper-performance replication.",
+  "paper_results_reproduced": false,
+  "note": "Measured on a newly constructed split; compare only with baselines rerun on this identical split."
+}

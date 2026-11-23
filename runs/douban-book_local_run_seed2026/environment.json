@@ -1,0 +1,20 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.5.1+cu121",
+  "numpy": "1.26.4",
+  "cuda_runtime": "12.1",
+  "gpu": "NVIDIA GeForce RTX 2050",
+  "device": "cuda",
+  "split_sha256": "9410d298787e5a82d4bff5bb8552917038ee45086733522c1f562461bbb95aa9",
+  "code_sha256": {
+    "train.py": "327e35fd73de881ab7b114a3f1e53794bee023c20e046b692a7be668b14e3bec",
+    "dhcldd\\__init__.py": "1b66440225c7c057ea9526ca14d0f1a4b917c457b54a0deae7e9d229bb17d3bf",
+    "dhcldd\\data.py": "7ba8cfd8935f7ce4d87e1fa2893b82b16ede114bf2bef753523f56fb3833f254",
+    "dhcldd\\evaluate.py": "9d6af9a807313762a3cb5356ec9bc1e2f9d08e00de2a95c6da7347e26faf1c34",
+    "dhcldd\\graph.py": "28feeadaedd8cc5486c9413345050cbad9fb24544e96519554dd7bc4cde60cce",
+    "dhcldd\\model.py": "660f372a987e8f65fff5f05a01fa2ef7577c43322b15b0efa0039f87ba0de9ed"
+  },
+  "status": "New independent reconstruction run; not original manuscript experimental evidence",
+  "determinism": "Seeded preprocessing, sampling, initialization; CUDA index_add/scatter floating-point reductions can be nondeterministic."
+}

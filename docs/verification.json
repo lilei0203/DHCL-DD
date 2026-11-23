@@ -1,0 +1,17 @@
+{
+  "test_command": "python -m unittest discover -s tests -v",
+  "tests_passed": 8,
+  "test_duration_seconds": 10.563,
+  "checks": [
+    "Sparse attention outputs and gradients match direct equation reference",
+    "Activation checkpointing preserves gradients",
+    "Symmetric chunked InfoNCE matches dense loss and gradients",
+    "Exact Jaccard neighbor selection and index ties",
+    "Per-user retention and item coverage restoration",
+    "Hand-calculated ranking metric agreement",
+    "Full-ranking train/validation/unsupported-item masking",
+    "Deterministic disjoint preprocessing and train-only negative sampling"
+  ],
+  "dependency_check": "pip check: No broken requirements found",
+  "dataset_audit": "data_audit.json"
+}
